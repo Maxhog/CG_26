@@ -1,0 +1,43 @@
+# ===== Компиляция Java =====
+*.class
+out/
+bin/
+build/
+target/
+*.jar
+*.war
+*.log
+hs_err_pid*
+replay_pid*
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# ===== Gradle / Maven (если проект когда-нибудь на них перейдёт) =====
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Eclipse / VS Code / NetBeans =====
+.classpath
+.project
+.settings/
+.vscode/
+nbproject/
+nbbuild/
+nbdist/
+
+# ===== Мусор операционных систем =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# ===== Изображения, сохранённые при тестировании приложения =====
+# (раскомментируйте, если не хотите коммитить свои тестовые картинки)
+# *.png
+# *.jpg
