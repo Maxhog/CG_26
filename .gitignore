@@ -38,6 +38,23 @@ desktop.ini
 *~
 
 # ===== Изображения, сохранённые при тестировании приложения =====
-# (раскомментируйте, если не хотите коммитить свои тестовые картинки)
 # *.png
 # *.jpg
+# Python
+__pycache__/
+*.pyc
+*.spec
+
+# PyInstaller
+build/
+dist/
+
+# Java
+out/
+*.class
+META-INF/
+
+# Прочее
+output/
+*.iml
+.idea/
